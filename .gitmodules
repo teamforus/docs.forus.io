@@ -1,0 +1,6 @@
+[submodule "me-ios"]
+	path = me-ios
+	url = https://github.com/teamforus/me-ios.git
+[submodule "me-android"]
+	path = me-android
+	url = https://github.com/teamforus/me-android
