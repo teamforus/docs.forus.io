@@ -1,1 +1,1 @@
-docs/standards/ERC735.md
+knowledge-base/me/readme.md
