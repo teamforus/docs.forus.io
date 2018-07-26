@@ -1,6 +1,6 @@
 [![join chat](https://img.shields.io/badge/join%20chat-me-green.svg)](https://chat.forus.io/channel/me)
 
-**note:** work in progress, beware of the dragons ?? 
+**note:** work in progress, beware of the fairies 
 
 **This repository is maintained by:** [@jknnr](https://github.com/jknnr)
 
