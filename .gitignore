@@ -1,4 +1,0 @@
-
-.DS_Store
-*.xcuserstate
-git lfs track "*.psd" "*.png" "*.afdesign" ".apk"
