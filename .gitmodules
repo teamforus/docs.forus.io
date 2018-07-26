@@ -10,6 +10,3 @@
 [submodule "android"]
 	path = android
 	url = https://github.com/teamforus/me-android.git
-[submodule "knowledge-base"]
-	path = knowledge-base
-	url = https://github.com/teamforus/knowledge-base.git
