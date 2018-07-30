@@ -14,9 +14,9 @@ You're a bit early.. A lot of what you'll read here will be subject to change. F
 * [research-and-development](research-and-development/README.md)
 
 ## General information
-* [Glossary](glossary.md)
-* [FAQ](faq.md)
-* [Introductie tot blockchain (dutch, needs translation)](posts/blockchain-intro.md)
-* [Introduction to blockchain (en)](posts/blockchain-intro-en.md)
+* [Glossary](knowledge-base/glossary.md)
+* [FAQ](knowledge-base/faq.md)
+* [Introductie tot blockchain (dutch, needs translation)](knowledge-base/posts/blockchain-intro.md)
+* [Introduction to blockchain (en)](knowledge-base/posts/blockchain-intro-en.md)
 
 
