@@ -2,7 +2,7 @@ _Wiki's such as these are living documents. If you want to improve anything; fee
 
 Important and lasting beliefs or ideals shared by the members of a culture about what is good or bad and desirable or undesirable. 
 
-1. Always aim for the highest possible good (jordan peterson)
+1. Always aim for the highest possible good
 2. Be open, honest and transparant 
 3. Build the organisation you want to be a part of
 4. Your time is valuable, others their time is valuable
