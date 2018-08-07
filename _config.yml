@@ -2,7 +2,7 @@ title: "Forus Documentation"
 description: Forus docs
 
 # leave trailing slash off
-url: http://localhost:4000
+url: https://maxvisser.github.io/docs.forus.io
 
 # bump if alterting styles or js
 version: 27
