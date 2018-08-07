@@ -1,0 +1,60 @@
+-
+  name: Forus
+  icon: cog
+  description: Guides for installing and deploying Rocket.Chat
+  path: forus
+  pages:
+    Why Forus: /#why-we-are-making-forus
+    What is Forus: /#what-is-forus
+    Main interaction: /#the-main-interaction
+    Example use case: /#example-case-of-an-implementation-of-forus
+    Roadmap: /#roadmap
+
+-
+  name: Me
+  icon: cog
+  description: an app for managing identity, assets and records
+  path: bots/
+  pages:
+    Why Me: bots-architecture/
+    What Me will do: what-me-will-do/
+    Wallet: bots-faq/
+    Identity: configure-bot-environment/
+    Roadmap: creating-bot-users/
+
+-
+  name: Me Android
+  icon: android
+  description: Native Android implementation of the me app
+  path: https://github.com/teamforus/me-android
+
+-
+  name: Me iOS
+  icon: apple
+  description: iOS implementation of the me app
+  path: https://github.com/teamforus/me-ios/
+
+-
+  name: Research and development
+  icon: code
+  description: We are researching, creating and improving the building blocks of Platform Forus.
+  path: https://github.com/teamforus/research-and-development
+
+
+-
+  name: Foundation
+  icon: support
+  description: The Forus Foundation has the ambition to develop decentalized applications for the public domain.
+  path: foundation/
+  pages:
+    Vision: vision/
+
+-
+  name: Knowledge base
+  icon: github
+  description: Guides for contributing to Rocket.Chat
+  path: knowledge-base/
+  pages:
+    Glossary: glossary
+    FAQ: faq/
+

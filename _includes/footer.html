@@ -1,0 +1,59 @@
+<footer class="app-footer {% if page.theme == 'light' %}app-footer--light{% else %}app-footer--black{% endif %}">
+  <div class="container">
+
+      <div class="app-footer_col">
+          <input id="menu1" type="checkbox" />
+          <label for="menu1" class="app-footer_pre-menu">Products</label>
+          <ul class="app-footer_nav">
+            <li><a href="/forus">Forus</a></li>
+            <li><a href="/me">Me</a></li>
+            <li><a href="/implementation">Implementations</a></li>
+          </ul>
+        </div>
+    
+        <div class="app-footer_col">
+          <input id="menu2" type="checkbox" />
+          <label for="menu2" class="app-footer_pre-menu">Contact</label>
+          <ul class="app-footer_nav">
+            <li><a href="/email">E-mail</a></li>
+            <li><a target="_blank" href="https://chat.forus.io/">Rocket.Chat</a></li>
+            <li><a href="/colony">Colony</a></li>
+            <li><a href="https://github.com/teamforus">Github</a></li>
+          </ul>
+        </div>
+
+    <div class="app-footer_col">
+      <input id="menu3" type="checkbox" />
+      <label for="menu3" class="app-footer_pre-menu"></label>
+      <ul class="app-footer_nav">
+      </ul>
+    </div>
+
+    <div class="app-footer_col">
+      <input id="menu4" type="checkbox" />
+      <label for="menu4" class="app-footer_pre-menu"></label>
+      <ul class="app-footer_nav">
+      </ul>
+    </div>
+    <div class="app-footer_wrap-logo">
+        <h1 class="app-footer_logo">
+          <a href="https://foundation.forus.io/">
+              <img src="{{ site.url }}/images/default/logo.svg" alt="Forus">
+          </a>
+        </h1>
+  <!--
+        <a class="app-footer_github" target="_blank" href="//github.com/teamforus/forus" rel="noopener noreferrer">
+            <span><img src="{{ site.url }}/images/default/star.svg" alt="GitHub Stars"></span>
+          <span class="star-count">{{site.stars}}K</span>
+        </a>
+        <a class="app-footer_github" target="_blank" href="//github.com/RocketChat/forus/forks" rel="noopener noreferrer">
+            <span><img src="{{ site.url }}/images/default/fork.svg" alt="GitHub forks"></span>
+          <span class="fork-count">{{site.forks}}K</span>
+        </a>-->
+        <a class="app-footer_github-link" target="_blank" href="//github.com/teamforus" rel="noopener noreferrer">
+            <span><img src="{{ site.url }}/images/default/github.svg" alt="GitHub"></span>
+          Open on GitHub
+        </a>
+      </div>
+    </div>
+  </footer>
