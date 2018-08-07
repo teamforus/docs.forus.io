@@ -14,13 +14,13 @@
   name: Me
   icon: cog
   description: an app for managing identity, assets and records
-  path: bots/
+  path: me/
   pages:
-    Why Me: bots-architecture/
-    What Me will do: what-me-will-do/
-    Wallet: bots-faq/
-    Identity: configure-bot-environment/
-    Roadmap: creating-bot-users/
+    Why Me: /#why-build-me
+    What Me will do: /#what-me-will-do
+    Wallet: /#1-wallet
+    Identity: /#3-identity
+    Roadmap: /#digital-identity-roadmap
 
 -
   name: Me Android
@@ -55,6 +55,6 @@
   description: Guides for contributing to Rocket.Chat
   path: knowledge-base/
   pages:
-    Glossary: glossary
+    Glossary: glossary/
     FAQ: faq/
 
