@@ -1,5 +1,5 @@
 
-# Example message (empty)
+# Example message
 ```javascript
 {
   "event": "EventName",
