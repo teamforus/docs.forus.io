@@ -6,7 +6,7 @@ if(location.hostname == "rocketchat.github.io" && location.href.indexOf('?noredi
 
 function scroll_toc(path) {
   // remove base either '/docs/' or '/'
-  var base = '/docs/';
+  var base = '/docs.forus.io/';
 
   path = path.indexOf(base) == 0? path.substring(base.length) : path.substring(1);
 
@@ -45,7 +45,7 @@ $(document).ready(function() {
 
   scroll_toc(window.location.pathname);
 
-  var path = (location.hostname == "maxvisser.github.io" || location.hostname == "rocket.chat") ? '/docs.forus.io/' : '/';
+  var path = (location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") ? '/docs/' : '/';
 
   console.log(location);
 
