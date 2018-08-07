@@ -45,7 +45,7 @@ $(document).ready(function() {
 
   scroll_toc(window.location.pathname);
 
-  var path = (location.hostname == "rocketchat.github.io" || location.hostname == "rocket.chat") ? '/docs/' : '/';
+  var path = (location.hostname == "maxvisser.github.io" || location.hostname == "rocket.chat") ? '/docs.forus.io/' : '/';
 
   console.log(location);
 
