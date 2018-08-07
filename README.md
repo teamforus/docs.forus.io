@@ -3,9 +3,11 @@ layout: home
 permalink: /index.html
 ---
 
-# Rocket.Chat Docs
+copied and changed from rocket.chat docs :)
 
-This is the official repository for Rocket.Chat Documentation.
+# Forus Docs
+
+This is the official repository for Forus Documentation.
 
 ## How to run Rocket.Chat Docs locally:
 
