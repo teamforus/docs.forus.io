@@ -14,7 +14,7 @@
   name: Me
   icon: cog
   description: an app for managing identity, assets and records
-  path: me/
+  path: me
   pages:
     Why Me: /#why-build-me
     What Me will do: /#what-me-will-do
