@@ -9,7 +9,7 @@ copied and changed from rocket.chat docs :)
 
 This is the official repository for Forus Documentation.
 
-## How to run Rocket.Chat Docs locally:
+## How to run docs locally:
 
 This is a quick guide on how to run the docs site locally, for a more in depth guide please look [here]( contributing/documentation)
 
