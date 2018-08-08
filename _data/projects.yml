@@ -2,7 +2,7 @@
   name: Forus
   icon: cog
   description: Guides for installing and deploying Rocket.Chat
-  path: docs/forus
+  path: en/forus
   pages:
     Why Forus: /#why-we-are-making-forus
     What is Forus: /#what-is-forus
@@ -14,7 +14,7 @@
   name: Me
   icon: cog
   description: an app for managing identity, assets and records
-  path: docs/me
+  path: en/me
   pages:
     Why Me: /#why-build-me
     What Me will do: /#what-me-will-do
@@ -45,7 +45,7 @@
   name: Foundation
   icon: support
   description: The Forus Foundation has the ambition to develop decentalized applications for the public domain.
-  path: docs/foundation/
+  path: en/foundation/
   pages:
     Vision: vision/
 
@@ -53,7 +53,7 @@
   name: Knowledge base
   icon: github
   description: Guides for contributing to Rocket.Chat
-  path: docs/knowledge-base/
+  path: en/knowledge-base/
   pages:
     Glossary: glossary/
     FAQ: faq/
