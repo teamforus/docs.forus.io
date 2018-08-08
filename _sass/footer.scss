@@ -1,3 +1,152 @@
+/* footer */
+.footer {
+  position: relative;
+  background: #191919;
+}
+.footer__main {
+  min-height: 285px;
+  padding: 45px 0;
+}
+.footer__col {
+  padding-bottom: 40px;
+  color: #fff;
+}
+.footer-col__name {
+  font-size: 13px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+.footer-col-list__item {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #666 !important;
+  cursor: pointer;
+}
+.footer-col-list__item:hover {
+  text-decoration: underline;
+}
+.footer__logo {
+  display: inline-block;
+  margin: 25px 0;
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff !important;
+}
+.footer__logo img {
+  height: 25px;
+}
+.footer-logo__text {
+  padding-bottom: 25px;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.22);
+}
+.footer-logo__country {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.22);
+}
+.footer__email {
+  display: inline-block;
+  margin-top: 35px;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.22);
+}
+.footer__bottom {
+  display: flex;
+  padding: 30px 0 25px;
+  flex-direction: column;
+}
+.footer__developed {
+  font-size: 10px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.22);
+  order: 1;
+}
+.footer__developed a {
+  color: rgba(255, 255, 255, 0.22);
+}
+.footer__copyrights {
+  padding-top: 25px;
+  font-size: 10px;
+  letter-spacing: .025em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.22);
+  order: 2;
+}
+@media (min-width: 1024px) {
+  .footer {
+    width: 100%;
+    height: 370px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 40px 0 30px;
+  }
+  .footer__main {
+    display: flex;
+    padding: 0 0 40px;
+    justify-content: space-between;
+  }
+  .footer__col {
+    width: 20%;
+    padding-right: 20px;
+    padding-bottom: 0;
+    flex-basis: auto;
+  }
+  .footer__col._last {
+    padding-right: 0;
+    text-align: right;
+  }
+  .footer-col__name {
+    display: block;
+    padding-bottom: 20px;
+    letter-spacing: .08em;
+  }
+  .footer__logo {
+    margin-top: 0;
+  }
+  .footer__bottom {
+    padding: 0;
+    color: #464545;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer__copyrights {
+    width: 60%;
+    padding: 0;
+    order: 1;
+    flex-basis: auto;
+  }
+  .footer__email {
+    width: 20%;
+    margin: 0;
+    text-align: right;
+    order: 3;
+    flex-basis: auto;
+  }
+  .footer__developed {
+    width: 20%;
+    text-decoration: none;
+    flex-basis: auto;
+  }
+  .footer__developed a {
+    text-decoration: underline;
+  }
+}
+
+/*rocket.chat
+
 .app-footer {
     .container {
       padding-bottom: 4em;
@@ -300,3 +449,4 @@
     margin: 3em auto;
     width: 6em;
   }
+   */
