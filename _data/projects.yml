@@ -1,7 +1,7 @@
 -
   name: Forus
   icon: cog
-  description: Guides for installing and deploying Rocket.Chat
+  description: Platform for the conditional exchange of value. 
   path: en/forus
   pages:
     Why Forus: /#why-we-are-making-forus
@@ -52,7 +52,7 @@
 -
   name: Knowledge base
   icon: github
-  description: Guides for contributing to Rocket.Chat
+  description: Questions & Answers
   path: en/knowledge-base/
   pages:
     Glossary: glossary/
