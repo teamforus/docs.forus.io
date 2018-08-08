@@ -6,7 +6,7 @@ if(location.hostname == "rocketchat.github.io" && location.href.indexOf('?noredi
 
 function scroll_toc(path) {
   // remove base either '/docs/' or '/'
-  var base = '/docs/';
+  var base = '/en/';
 
   path = path.indexOf(base) == 0? path.substring(base.length) : path.substring(1);
 
