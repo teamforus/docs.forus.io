@@ -1,14 +1,15 @@
-- Forus
-- Me:
-  - Standards:
-    - ERC-20
-    - ERC-721
-    - ERC-725
-    - ERC-735
-- Research and development
-- Implementation
-- Knowledge base:
-  - Glossary
-  - FAQ
-- Foundation:
-  - Vision
+- docs:
+  - Forus
+  - Me:
+    - Standards:
+      - ERC-20
+      - ERC-721
+      - ERC-725
+      - ERC-735
+  - Research and development
+  - Implementation
+  - Knowledge base:
+    - Glossary
+    - FAQ
+  - Foundation:
+    - Vision
