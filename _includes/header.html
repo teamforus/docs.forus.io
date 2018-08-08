@@ -1,23 +1,50 @@
-<div class="app-header app-header--black">
-    <header class="app-header_wrap headroom--top">
-      <div class="container">
-        <h1 class="app-header_logo">
-          <a href="/">
-            <img class="normal" src="{{ site.url }}/images/default/logo.svg" alt="Rocket.Chat">
-          </a>
-        </h1>
+<header class="header">
+    <div class="banner__container">
+        <div class="header__wrapper">
+            <a href="/" class="header__logo">
+                <img src="{{ site.foundationurl }}/static/images/logo.svg" />
+            </a>
+            <div class="header__navs hide-sm-max">
+                <ul>
+                  <li class="child sibling">
+                  <a href="/en/">Home</a>
+                  </li>
+                  <li class="child sibling">
+                  <a href="/en/platform/">Platform</a>
+                  </li>
+                  <li class="child selected">
+                  <a href="/en/collaboration/">Collaboration</a>
+                  </li>
+                  <li class="child sibling">
+                  <a href="/en/media-1/">Media</a>
+                  </li>
+                  <li class="child sibling">
+                  <a href="/en/contacts/">Contact</a>
+                  </li>
+                </ul>
+            </div>
+            <div class="header__lang hide-sm-max">
+                <a data-lang="nl" class="header-lang__item">NL</a>
+                <a data-lang="en" class="header-lang__item _active">EN</a>
+                <!--<a data-lang="ru" class="header-lang__item">RU</a>-->
+            </div>
+            <div data-burger class="header__burger hide-s-min">
+                <div class="icon-burger"></div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="page-content">
+    <div class="banner" style="background-image: url( {{ site.foundationurl }}/media/slider/19_H2nGCps.png)">
+        <div class="banner__wrapper">
+            <div class="banner__container">
+                <div class="banner__subtitle"> </div>
+                <div class="banner__title">
+                    
+                        Collaboration
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <input type="checkbox" id="handle-menu" />
-        <label class="app-header_handle-menu" for="handle-menu"><span /></label>
-
-        <nav class="app-header_menu">
-          <ul>
-            <li><a data-senna-off="true" href="{{ site.url }}">Welcome</a></li>
-            <li><a data-senna-off="true" class="current-page" href="{{ site.url }}/docs/forus/">Docs</a></li>
-
-          </ul>
-        </nav>
-
-      </div>
-    </header>
-  </div>
