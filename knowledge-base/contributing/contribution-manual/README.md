@@ -25,9 +25,11 @@ When you are done editing, you can commit the changes on the bottom of the page:
 
 
 #### 2b: Creating a new document
-// TODO: Explanation of how to add a new file to the navigation structure.
+If you want to add a new file, you should create a folder with the name you want the file to have in the navigation structure. In that folder you should then create a file named README.md. 
 
-If you want to add a new file, you should create a folder with the name you want the file to have in the navigation structure. In that folder you should then create a file named README.md. After adding the file you can update the navigation structure located in xxx
+e.g. me/standards/erc-20/README.md
+
+After adding the file you can update the navigation structure located in _menu-settings/toc.yml
 
 ### 3: Open a pull request
 
