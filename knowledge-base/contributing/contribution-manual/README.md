@@ -12,7 +12,7 @@ First go to [github.com/teamforus/docs](https://github.com/teamforus/docs) and c
 You will now have a copy of the docs that you can freely edit.
 
 ### 2: Making changes
-There are a couple things to take into consideration when you make changes to the documentation, please be sure to read the [contribution guidelines](#TODO) and [markdown styleguide](#TODO).
+Please be sure to read the [markdown styleguide](\../markdown-styleguide/README.md).
 
 #### 2a: Editing existing documents
 Editing an existing document is quite simple. You can use the github interface to do it. When you open a file, you will see an edit button on the top right:
