@@ -4,7 +4,7 @@ Foundation Forus was founded on 1 April 2017. The Forus Foundation has the ambit
 * Foundation Forus is based in the Netherlands, mission "decentralised applications for the public domain" non-profit.
 * Here we will share our statutes, yearly results, presentations and other media
 
-# organsation
+# organisation
 
 ## about the organisation
 * "Forus" comes from "for us" and is an open organisation, everybody is welcome to get involved and "join us".
