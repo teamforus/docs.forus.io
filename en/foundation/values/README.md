@@ -11,7 +11,11 @@ Important and lasting beliefs or ideals shared by the members of a culture about
 5. If you see something you do not like, think of a way to improve it and act on it
 6. Don't compare yourself to others, compare yourself to who you were yesterday
 7. Get to know each other and each others work
+<<<<<<< HEAD
 8. Be open, honest and transparant
+=======
+8. Decentralize where possible
+>>>>>>> 92e796ea03d8b7412f477b1fdbace6d729b84bcd
 9. Collaborate
 10. No fake news
 
