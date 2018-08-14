@@ -19,9 +19,27 @@ Editing an existing document is quite simple. You can use the github interface t
 
 <img width="300" alt="screen shot 2018-08-14 at 10 17 40" src="https://user-images.githubusercontent.com/30194799/44080204-ab1f73fa-9fab-11e8-8edd-063ae905a94a.png">
 
+When you are done editing, you can commit the changes on the bottom of the page:
+
+<img width="931" alt="screen shot 2018-08-14 at 10 31 51" src="https://user-images.githubusercontent.com/30194799/44080756-4f1cc81c-9fad-11e8-91b0-02fa45f848ed.png">
+
 
 #### 2b: Creating a new document
+// TODO: Explanation of how to add a new file to the navigation structure.
+
+If you want to add a new file, you should create a folder with the name you want the file to have in the navigation structure. In that folder you should then create a file named README.md. After adding the file you can update the navigation structure located in xxx
 
 ### 3: Open a pull request
 
-After you have made your contributions, you can create a pull request to teamforus/docs
+After you have made your contributions, you can create a pull request to teamforus/docs. Go to the pull requests tab and click new pull request:
+
+<img width="990" alt="screen shot 2018-08-14 at 10 22 53" src="https://user-images.githubusercontent.com/30194799/44080490-77f5aec6-9fac-11e8-91ed-3f2ef2cabc7b.png">
+
+As the base fork set teamforus/docs. If this is not possible, click "compare across forks"
+
+<img width="840" alt="screen shot 2018-08-14 at 10 25 45" src="https://user-images.githubusercontent.com/30194799/44080543-a1c69c38-9fac-11e8-86e7-fe434c109d03.png">
+
+Then click: "create pull request"
+
+### 4: Processing feedback
+Your changes will now be reviewed. If they are good they will be added to the documentation. If they still need work, you will recieve feedback on your pull request. You can process the feedback by going back to your fork, making and commiting the changes, your pull request will now automatically be updated with the new changes.
