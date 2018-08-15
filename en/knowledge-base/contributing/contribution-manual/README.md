@@ -29,7 +29,7 @@ If you want to add a new file, you should create a folder with the name you want
 
 e.g. me/standards/erc-20/README.md
 
-After adding the file you can update the navigation structure located in [menu_settings/toc.yml](../../../menu_settings/toc.yml)
+After adding the file you can update the navigation structure located in [menu_settings/toc.yml](https://github.com/teamforus/docs/blob/develop/menu_settings/toc.yml)
 
 ### 3: Open a pull request
 
