@@ -1,4 +1,4 @@
-# Contribution manual.
+# Contribution manual
 
 So, you’ve decided you would like to contribute to the documentation? Great! You can follow the steps below to have your contributions show up on [docs.forus.io](https://docs.forus.io).
 
