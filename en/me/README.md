@@ -1,9 +1,3 @@
-[![join chat](https://img.shields.io/badge/join%20chat-me-green.svg)](https://chat.forus.io/channel/me)
-
-**note:** work in progress, beware of the dragons 
-
-**This repository is maintained by:** [@jknnr](https://github.com/jknnr)
-
 # me: an app for managing identity, assets and records  
 
 ### why build me?
@@ -76,3 +70,7 @@ As much as possible, we are trying to implement open standards that are embraced
 The me app will support three main groups of functionality: a wallet for the things you own, your personal records and a way to identify and interact with third parties (applications, people or organisations)
 
 <img width="537" alt="screen shot 2018-06-20 at 13 18 23" src="https://user-images.githubusercontent.com/30194799/41655199-71a66c18-748c-11e8-81ff-2d49e51175f1.png">
+
+[![join chat](https://img.shields.io/badge/join%20chat-me-green.svg)](https://chat.forus.io/channel/me)
+
+**This repository is maintained by:** [@jknnr](https://github.com/jknnr)
