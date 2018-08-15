@@ -4,4 +4,6 @@
 
 Hey there 👋🏻
 
-You're a bit early.. A lot of what you'll read here will be subject to change. Feel free to contribute with a pull request or share questions and remarks as issues.
+You're a bit early.. A lot of what you'll read here will be subject to change.
+
+Would you like to contribute? Please read the [contribution manual](https://docs.forus.io/en/knowledge-base/contributing/contribution-manual/).
