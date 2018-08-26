@@ -1,0 +1,34 @@
+{% if name == 'en'  %} 
+{% else %} 
+<ul>
+{% endif %}
+{% for entry in include.level %}
+  {% if entry.first %}
+    {% for item in entry %}
+      {% assign name = item[0] %}
+      {% break %}
+    {% endfor %}
+    {% assign newpath = name | slugify %}
+    {% assign path =  include.path | append: newpath | append: '/' %}
+    {% assign level = entry[name] %}
+    {% if name == 'en'  %} 
+    {% include en_level.html level=level path=path %}
+    {% else %} 
+    <li class="{{ newpath }}" >
+      <a href="{{ path }}">{{ name }}</a>
+      {% include en_level.html level=level path=path %}
+    </li>
+    {% endif %}
+  {% else %}
+    {% assign newpath = entry | slugify %}
+    {% assign path = include.path | append: newpath | append: '/' %}
+
+    <li class="{{ newpath }}" >
+      <a href="{{ path }}">{{ entry }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+{% if name == 'en'  %} 
+{% else %} 
+</ul>
+{% endif %}

@@ -1,5 +1,3 @@
-
-
 desc 'Check links for site running on localhost:4000'
 task :check_links do
   require 'anemone'
