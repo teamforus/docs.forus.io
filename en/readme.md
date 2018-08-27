@@ -1,9 +1,8 @@
-**note:** work in progress, beware of the dragons 🐉 
+## Docs
 
-**This repository is maintained by:** [@jamalv](https://github.com/jamalv)
+Maintainer | [@jamalv](https://github.com/jamalv)
+--- | ---
 
-Hey there 👋🏻
-
-You're a bit early.. A lot of what you'll read here will be subject to change.
+You can read the docs at: [docs.forus.io](https://docs.forus.io)
 
 Would you like to contribute? Please read the [contribution manual](https://docs.forus.io/en/knowledge-base/contributing/contribution-manual/).
