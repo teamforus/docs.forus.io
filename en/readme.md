@@ -1,4 +1,7 @@
 ---
 layout: home
-permalink: /index.html
+permalink: /en
+redirect_from:
+  - /index.html
 ---
+

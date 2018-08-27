@@ -1,4 +1,5 @@
 ---
 layout: home
-permalink: ./index.html
+permalink: /nl
 ---
+
