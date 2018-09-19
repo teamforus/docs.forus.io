@@ -6,6 +6,7 @@
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
   <link rel="shortcut icon" type="image/x-icon" href="/docs.forus.io/favicon.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css"/>
   <link rel="stylesheet" href="{{ site.url }}/public/sidebar.min.css">
@@ -43,11 +44,19 @@
         </div>
       </div>
     -->
-    
+    {% assign language = page.url | slice: 1, 3 %}
+
+    {% if language == 'nl' %}   
     <div class="wrapper home">
-      {% include projects.html projects=site.data.projects %}
+      {% include projects.html projects=site.data.nl_projects %}
     </div>
+    {% else %} 
+    <div class="wrapper home">
+        {% include projects.html projects=site.data.en_projects %}
+    </div>
+    {% endif %} 
   </main>
+
 
   {% include footer.html %}
 
@@ -90,5 +99,4 @@
     <!-- End of Rocket.Chat Livechat Script -->
 
   </body>
-  
   </html>

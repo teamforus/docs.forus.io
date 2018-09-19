@@ -1,3 +1,4 @@
+{% assign language = page.url | slice: 1, 2 %}
 <header class="header">
     <div class="banner__container">
         <div class="header__wrapper">
@@ -7,28 +8,28 @@
             <div class="header__navs hide-sm-max">
                 <ul>
                   <li class="child sibling">
-                  <a href="{{site.foundationurl}}/en/">Home</a>
+                  <a href="{{site.foundationurl}}/{{language}}/">Home</a>
                   </li>
                   <li class="child sibling">
-                  <a href="{{site.foundationurl}}/en/platform/">Platform</a>
+                  <a href="{{site.foundationurl}}/{{language}}/platform/">Platform</a>
                   </li>
                   <li class="child selected">
-                  <a href="{{site.foundationurl}}/en/collaboration/">Collaboration</a>
+                  <a href="{{site.foundationurl}}/{{language}}/collaboration/">Collaboration</a>
                   </li>
                   <li class="child sibling">
-                  <a href="{{site.foundationurl}}/en/media-1/">Media</a>
+                  <a href="{{site.foundationurl}}/{{language}}/media-1/">Media</a>
                   </li>
                   <li class="child sibling">
-                      <a href="https://docs.forus.io/en/">Documentation</a>
+                      <a href="{{site.url}}/{{language}}/">Documentation</a>
                   </li>
                   <li class="child sibling">
-                  <a href="{{site.foundationurl}}/en/contacts/">Contact</a>
+                  <a href="{{site.foundationurl}}/{{language}}/contacts/">Contact</a>
                   </li>
                 </ul>
             </div>
             <div class="header__lang hide-sm-max">
-                <!--<a data-lang="nl" class="header-lang__item">NL</a>-->
-                <a data-lang="en" class="header-lang__item _active">EN</a>
+                    <a data-lang="nl" class="header-lang__item {% if language == "nl" %}_active{% endif %}" onclick="location.href=this.href+'{{site.url}}/nl/'+baseurlwhlanguage;return false;">NL</a>
+                    <a data-lang="en" class="header-lang__item {% if language == "en" %}_active{% endif %}" onclick="location.href=this.href+'{{site.url}}/en/'+baseurlwhlanguage;return false;">EN</a>
                 <!--<a data-lang="ru" class="header-lang__item">RU</a>-->
             </div>
             <div data-burger class="header__burger hide-s-min">

@@ -1,4 +1,4 @@
-{% if name == 'en'  %} 
+{% if name == 'nl'  %} 
 {% else %} 
 <ul>
 {% endif %}
@@ -11,12 +11,12 @@
     {% assign newpath = name | slugify %}
     {% assign path =  include.path | append: newpath | append: '/' %}
     {% assign level = entry[name] %}
-    {% if name == 'en'  %} 
-    {% include level.html level=level path=path %}
+    {% if name == 'nl'  %} 
+    {% include nl_level.html level=level path=path %}
     {% else %} 
     <li class="{{ newpath }}" >
       <a href="{{ path }}">{{ name }}</a>
-      {% include level.html level=level path=path %}
+      {% include nl_level.html level=level path=path %}
     </li>
     {% endif %}
   {% else %}
@@ -28,7 +28,7 @@
     </li>
   {% endif %}
 {% endfor %}
-{% if name == 'en'  %} 
+{% if name == 'nl'  %} 
 {% else %} 
 </ul>
 {% endif %}

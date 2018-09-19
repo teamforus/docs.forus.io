@@ -1,8 +1,3 @@
----
-layout: home
-permalink: /index.html
----
-
 copied and changed from rocket.chat docs :)
 
 # Forus Docs

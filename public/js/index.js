@@ -1,3 +1,5 @@
+var baseurl = window.location.pathname;
+var baseurlwhlanguage = baseurl.substring(4, baseurl.length);
 
 // redirect people to rocket.chat/docs if they try and browse the GitHub pages version
 if(location.hostname == "rocketchat.github.io" && location.href.indexOf('?noredirect') == -1) {
@@ -6,7 +8,7 @@ if(location.hostname == "rocketchat.github.io" && location.href.indexOf('?noredi
 
 function scroll_toc(path) {
   // remove base either '/docs/' or '/'
-  var base = '/en/';
+  var base = baseurl.substring(0,4);
 
   path = path.indexOf(base) == 0? path.substring(base.length) : path.substring(1);
 
