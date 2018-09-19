@@ -1,5 +1,0 @@
----
-layout: home
-permalink: /nl
----
-
