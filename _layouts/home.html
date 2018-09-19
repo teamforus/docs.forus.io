@@ -52,6 +52,7 @@
     </div>
     {% else %} 
     <div class="wrapper home">
+        {{page.url}}<br>
         {% include projects.html projects=site.data.en_projects %}
     </div>
     {% endif %} 
