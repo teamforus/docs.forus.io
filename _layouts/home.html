@@ -44,15 +44,18 @@
         </div>
       </div>
     -->
-    {% assign language = page.url | slice: 0, 3 %}
+    {% assign language = page.url %}
 
-    {% if language == 'nl/' %}   
+    {% if language == '/nl/' %}   
+    <div class="wrapper home">
+      {% include projects.html projects=site.data.nl_projects %}
+    </div>
+    {% elsif language == '/nl' %}
     <div class="wrapper home">
       {% include projects.html projects=site.data.nl_projects %}
     </div>
     {% else %} 
     <div class="wrapper home">
-        {{page.url}}<br>
         {% include projects.html projects=site.data.en_projects %}
     </div>
     {% endif %} 
