@@ -1,4 +1,4 @@
-# Forus Docs
+# Github pages theme
 
 This is the github pages theme for docs.forus.io, if you want to contribute to the docs please visit: https://github.com/teamforus/docs
 
