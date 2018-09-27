@@ -1,6 +1,6 @@
 # Github pages theme
 
-This is the github pages theme for docs.forus.io, if you want to contribute to the docs please visit: https://github.com/teamforus/docs
+This is the github pages theme for [docs.forus.io](https://docs.forus.io), if you want to contribute to the docs please add your changes to: https://github.com/teamforus/docs read more on contributing at  https://docs.forus.io/en/knowledge-base/contributing/contribution-manual/
 
 ## How to run docs locally:
 
