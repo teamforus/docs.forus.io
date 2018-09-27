@@ -1,8 +1,6 @@
-copied and changed from rocket.chat docs :)
-
 # Forus Docs
 
-This is the official repository for Forus Documentation.
+This is the github pages theme for docs.forus.io, if you want to contribute to the docs please visit: https://github.com/teamforus/docs
 
 ## How to run docs locally:
 
