@@ -3,7 +3,7 @@ description: Forus docs
 
 # leave trailing slash off
 url: https://docs.forus.io
-foundationurl: https://foundation.forus.io
+foundationurl: https://about.forus.io
 
 # bump if alterting styles or js
 version: 27
